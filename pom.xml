@@ -573,57 +573,5 @@
       </exclusions>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <id>opennlp</id>
-      <name>OpenNLP Maven Repository</name>
-      <url>https://opennlp.sourceforge.net/maven2/</url>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-        <updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>apache.maven2.snapshot.repository</id>
-      <name>Apache Maven 2 repository</name>
-      <url>https://people.apache.org/maven-snapshot-repository</url>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-        <updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>tamingtext.maven2.repository</id>
-      <name>TamingText Maven 2 repository</name>
-      <url>https://maven.tamingtext.com</url>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-        <updatePolicy>never</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <!--  carrot can be found here  -->
-      <id>sonatype-nexus-public</id>
-      <name>SonaType public snapshots and releases repository</name>
-      <url>https://oss.sonatype.org/content/groups/public</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
+
 </project>
